@@ -1,0 +1,69 @@
+{
+    "configurations": [
+        {
+            "name": "pca10056/s140",
+            "includePath": [
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/target/pca10056/s140/config",
+                "${SDK_ROOT}/**"
+            ],
+            "defines": [
+                "APP_TIMER_V2",
+                "APP_TIMER_V2_RTC1_ENABLED",
+                "BOARD_PCA10056",
+                "CONFIG_GPIO_AS_PINRESET",
+                "FLOAT_ABI_HARD",
+                "NRF52840_XXAA",
+                "NRF_SD_BLE_API_VERSION=7",
+                "S140",
+                "SOFTDEVICE_PRESENT",
+                "__HEAP_SIZE=8192",
+                "__STACK_SIZE=8192"
+            ],
+            "compilerPath": "${GNU_INSTALL_ROOT}/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                "-mabi=aapcs",
+                "-mfloat-abi=hard",
+                "-mfpu=fpv4-sp-d16"
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/.vscode/undef.h"
+            ]
+        },
+        {
+            "name": "pca10059/s140",
+            "includePath": [
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/target/pca10059/s140/config",
+                "${SDK_ROOT}/**"
+            ],
+            "defines": [
+                "APP_TIMER_V2",
+                "APP_TIMER_V2_RTC1_ENABLED",
+                "BOARD_PCA10059",
+                "CONFIG_GPIO_AS_PINRESET",
+                "FLOAT_ABI_HARD",
+                "NRF52840_XXAA",
+                "NRF_SD_BLE_API_VERSION=7",
+                "S140",
+                "SOFTDEVICE_PRESENT",
+                "__HEAP_SIZE=8192",
+                "__STACK_SIZE=8192"
+            ],
+            "compilerPath": "${GNU_INSTALL_ROOT}/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                "-mabi=aapcs",
+                "-mfloat-abi=hard",
+                "-mfpu=fpv4-sp-d16"
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/.vscode/undef.h"
+            ]
+        }
+    ],
+    "version": 4
+}
